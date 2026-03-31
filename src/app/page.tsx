@@ -10,6 +10,14 @@ import { useGenerationTimer } from "@/hooks/useGenerationTimer";
 import { TimerDisplay } from "@/components/ui/TimerDisplay";
 
 export default function Home() {
+  return (
+    <div style={{padding: "40px", textAlign: "center"}}>
+      <h1>Site Live ✅</h1>
+      <p>Vercel deployment working</p>
+    </div>
+  );
+}
+export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [loading, setLoading] = useState(false);
   const [result, setResult] = useState<string | null>(null);
