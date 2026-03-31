@@ -17,6 +17,7 @@ export default function Home() {
     </div>
   );
 }
+
 export default function Home() {
   const [prompt, setPrompt] = useState("");
   const [loading, setLoading] = useState(false);
