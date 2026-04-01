@@ -1,4 +1,11 @@
-"use client";
+export default function Home() {
+  return (
+    <div style={{ padding: "40px", textAlign: "center" }}>
+      <h1>Site Live ✅</h1>
+      <p>Vercel working perfectly</p>
+    </div>
+  );
+}
 
 import { useState } from "react";
 import Image from "next/image";
